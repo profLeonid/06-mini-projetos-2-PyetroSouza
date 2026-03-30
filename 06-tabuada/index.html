@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tabuada Estendida</title>
-  <link rel="stylesheet" href="style.css"/>
-  <script src="app.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
 </head>
+
 <body>
 
   <div class="container">
@@ -18,10 +20,10 @@
 
     <div class="campo">
       <label>Número</label>
-      <input type="number" placeholder="Ex: 7"/>
+      <input id="numero" type="number" placeholder="Ex: 7" />
     </div>
 
-    <button>Gerar Tabuada</button>
+    <button onclick="gerarLista()">Gerar Tabuada</button>
 
     <div class="resultado">
       <p class="resultado-titulo">Resultado</p>
@@ -45,4 +47,5 @@
   </div>
 
 </body>
+
 </html>
